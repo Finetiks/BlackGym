@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: lightgrey;
 }
 
 abbr[title],
@@ -1906,7 +1907,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #0f61d6;
   background-color: #212121;
   border-color: dodgerblue;
   outline: 0;
@@ -2039,7 +2040,7 @@ textarea.form-control {
 
 .form-check-input[disabled] ~ .form-check-label,
 .form-check-input:disabled ~ .form-check-label {
-  color: #6c757d;
+  color: #0c69ef;
 }
 
 .form-check-label {
@@ -3447,7 +3448,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #0d65e3;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -3540,7 +3541,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
-  color: #6c757d;
+  color: #0c69ef;
 }
 
 .custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
@@ -4026,6 +4027,14 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
+#logotext{
+  height: 90%;
+  width: auto;
+}
+#logoimg{
+  height: 75%;
+  width: auto
+}
 
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
@@ -4146,6 +4155,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 768px) {
+
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4174,6 +4184,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
+
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
     padding-right: 0;
@@ -7203,7 +7214,7 @@ button.bg-dark:focus {
 }
 
 .position-absolute {
-  position: absolute !important;
+  position: relative !important;
 }
 
 .position-fixed {
@@ -7619,7 +7630,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .pl-5,
@@ -8562,7 +8573,7 @@ button.bg-dark:focus {
   }
   .mt-lg-5,
   .my-lg-5 {
-    margin-top: 3rem !important;
+    margin-top: 0rem !important;
   }
   .mr-lg-5,
   .mx-lg-5 {
@@ -8570,7 +8581,7 @@ button.bg-dark:focus {
   }
   .mb-lg-5,
   .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 0rem !important;
   }
   .ml-lg-5,
   .mx-lg-5 {
@@ -8672,7 +8683,7 @@ button.bg-dark:focus {
     padding-left: 1.5rem !important;
   }
   .p-lg-5 {
-    padding: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pt-lg-5,
   .py-lg-5 {
